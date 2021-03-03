@@ -1,4 +1,20 @@
+
 h1{
     text-align: middle;
     color:#000000;
+}
+
+nav{
+    border: 1px solid;
+    background-color:#FF5733;
+    position:relative;
+    margin-left: 0px;
+    width:100%;
+}
+
+a{
+    position:relative;
+    margin-left:15%;
+    text-decoration:none;
+    
 }
