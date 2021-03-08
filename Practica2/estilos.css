@@ -1,13 +1,16 @@
-main,header,footer{
-    margin:auto;
-}
 header,footer{
+    margin:auto;
     background-color: #000000;
+}
+
+header,footer{
+    border:1px solid;
+    
     width:100%;
 }
 
 nav{
-    background-color:#000000;
+    background-color: #000000;
     position:relative;  
     width:100%;
 }
@@ -55,3 +58,8 @@ ul a{
     text-decoration:none; 
 } 
 
+#titulo1{
+    position:relative;
+    top:700px;
+    left:100px;
+}
