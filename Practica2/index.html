@@ -4,40 +4,94 @@
 	<head>
 		<title>Practica 2</title>
 		<meta charset="UTF-8" />
+		<link rel="icon" type="image/png" href="assets/favicon.png">
         <link rel="stylesheet" type="text/css" href="estilos.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous"/>
 	</head>
 
 	<body>
 
-		<header>
-			<nav id="r_sociales">
+		<header id="primero">
+			<div id="r_sociales">				
+                <div id="facebook"><a href="https://www.facebook.com/"><i class="fab fa-facebook fa-2x"></i></a></div>
+                <div id="instagram"><a href="https://www.instagram.com/"><i class="fab fa-instagram-square fa-2x"></i></a></div>
+                <div id="twitter"><a href="https://twitter.com/?lang=es"><i class="fab fa-twitter fa-2x"></i></a></div>
+                <div id="youtube"><a href="https://www.youtube.com/"><i class="fab fa-youtube fa-2x"></i></a></div>				
+            </div>
+
+			<div id="home">
+				<a href="index.html"><img id="home" src="assets/home.png"></a>
+			</div>
+
+			<nav id="productos">
 				<ul>
-                	<li id="facebook"><a href="https://www.facebook.com/"><i class="fab fa-facebook fa-2x"></i></a></li>
-                	<li id="instagram"><a href="https://www.instagram.com/"><i class="fab fa-instagram-square fa-2x"></i></a></li>
-                	<li id="twitter"><a href="https://twitter.com/?lang=es"><i class="fab fa-twitter fa-2x"></i></a></li>
-                	<li id="youtube"><a href="https://www.youtube.com/"><i class="fab fa-youtube fa-2x"></i></a></li>
+					<li><a href="#">Ordenadores</a>
+						<ul>
+							<li><a href="paginas/ordenadores/high.html">High class</a></li>
+							<li><a href="paginas/ordenadores/medium.html">Med class</a></li>
+							<li><a href="paginas/ordenadores/low.html">Low class</a></li>
+						</ul>
+					</li>
+
+					<li><a href="#">Consolas</a>
+						<ul>
+							<li><a href="paginas/consolas/ps5.html">Play Station 5</a></li>
+							<li><a href="paginas/consolas/nintendo.html">Nintendo Switch</a></li>
+							<li><a href="paginas/consolas/xbox.html">Xbox</a></li>
+						</ul>
+					</li>
+
+					<li><a href="#">Periféricos</a>
+						<ul>
+							<li><a href="#">Raton</a></li>
+							<li><a href="#">Teclado</a></li>
+							<li><a href="#">Cascos</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Contacto</a></li>
 				</ul>
-            </nav>
+			</nav>
+
+			
+
 		</header>
 
-		<main>
-        
-			<section>
-				
+		<main>			
+
+			<section id="nuevos">	
+				<header>
+					<h1>Mas nuevo</h1>
+				</header>											
 				<article>
-                    <h1 id="titulo1">QUE PONGO?</h1>
-				</article>			
-	
+                    <a href="novedades.html"><img id="rtx" src="assets/rtx.jpg"></a>
+				</article>	
+				<div class="comentarios"><span id="com_grafica">¿Aun no conoces la nueva tarjeta grafica RTX 3080?</span></div>			
+			</section>
+			
+
+			<section id="blog">		
+				<header>
+					<h1>Noticias</h1>
+				</header>										
+				<article>
+                    <a href="noticias.html"><img id="grafica" src="assets/noticias.png"></a>
+				</article>	
+				<div class="comentarios"><span id="com_noticia">No te pierdas esta comparación, el resultado es increible!!</span></div>		
+			</section>
+			
+
+			<section>
+				<header>
+					<h1>Seguro que te interesa</h1>
+				</header>
+				<article>
+
+				</article>
 			</section>
 		</main>
 
 		<footer>
-			<ul>
-				<li></li>
-				<li></li>
-				<li></li>
-			</ul>
+			
 		</footer>
 							
 	</body>

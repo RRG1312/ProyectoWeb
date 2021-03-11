@@ -1,65 +1,120 @@
 header,footer{
+    position: relative;
     margin:auto;
-    background-color: #000000;
+    border:1px solid;   
+    width:100%;
+}
+header{
+    border:0px;
 }
 
-header,footer{
+main{
+    margin:auto;
+    width:70%;
     border:1px solid;
-    
-    width:100%;
 }
 
-nav{
-    background-color: #000000;
-    position:relative;  
-    width:100%;
-}
-ul{
-    list-style-type: none;
-    position: relative;   
-}
-
-/*
-ul li{
-    margin-left: 1%;
-    margin-right:22%;
+#r_sociales div{      /*quitar el borde */
+    border:1px solid;
     float:left;
+    margin-left:10%;
+    margin-right:10%;
+}
+#r_sociales{
+    border:1px solid;
+    min-height: 35px;
+}
+
+#home{
+    width:100px;
+    height:100px;
+    position:absolute; 
+    top:0px;
+    left:0px;
+}
+
+/*Menu flotante*/
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+                  
+li{
+    list-style-type:none;
+    position:relative;
+    width:120px;
+}
+                
+li a{
+    text-decoration:none;
+    display:inline-block;
+    padding:5px 10px;
+    width:150px;
+    height:40px;
+    border:1px solid #000000;
+    color:#000000;
     
 }
-
-ul a{
-    display: block;   
+            
+li a:hover{
+    color:#000000;
+    background-color:#fff;
+            
 }
-*/
+    
+nav li ul{
+    display:none;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+            
+nav li:hover ul{
+    display:block;
+}
 
-#facebook{
+#productos{
     position:absolute;
-    margin-left:15%;
-    margin-top: 3%;
-    text-decoration:none; 
-}   
+    top:100px;
 
-#instagram{
-    position:absolute;
-    margin-left:35%;
-    margin-top: 3%;
-    text-decoration:none; 
-} 
-#twitter{
-    position:absolute;
-    margin-left:55%;
-    margin-top: 3%;
-    text-decoration:none; 
-} 
-#youtube{
-    position:absolute;
-    margin-left:75%;
-    margin-top: 3%;
-    text-decoration:none; 
-} 
+}
+/*Tamaño fotos */
+#rtx{
+    height:301px;
+    width:;
+}
 
-#titulo1{
-    position:relative;
-    top:700px;
-    left:100px;
+#grafica{
+    height:250px;
+    width:;
+}
+
+/*Tamaño de titulos*/
+h1{
+    text-decoration:none;
+	color:#F16841;
+	font-family: 'Times New Roman', Times, serif;
+    font-size: 4.5em;
+    font-style: italic;
+    font-weight:4.5em;
+}
+
+/*comentarios*/
+span{
+    text-decoration:none;
+	color:#3d19c0;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3.0em;
+    font-style: oblique;
+    font-weight:3.0em;
+    position: relative;
+}
+
+#com_grafica{
+    top:50px;
+    right:50px;
+}
+#com_noticia{
+
 }
