@@ -2,10 +2,9 @@
 <html lang="es">
 
 	<head>
-		<title>Practica 2</title>
+		<title></title>
 		<meta charset="UTF-8" />
-		<link rel="icon" type="image/png" href="assets/favicon.png">
-        <link rel="stylesheet" type="text/css" href="estilos.css"/>
+		<link rel="stylesheet" type="text/css" href="..\..\estilos.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous"/>
 	</head>
 
@@ -20,14 +19,12 @@
             </div>
 
 			<div id="home">
-				<a href="index.html"><img id="home" src="assets/home.png"></a>
+				<a href="..\..\index.html"><img id="home" src="..\..\assets/home.png"></a>
 			</div>
 
 			<nav id="servicios">
 				<ul>
-					<li><a href="paginas/personal/signup.html"><i class="fas fa-user-plus"></i>Sign Up</a></li>
-
-					<li><a href="paginas/personal/login.html">Log in</a></li>
+					<li><a href="login.html">Log in</a></li>
 
 					<li><a href="paginas/personal/perfil.html">Mi perfil</a></li>
 
@@ -71,37 +68,36 @@
 		</header>
 
 		<main>			
-
-			<section id="nuevos">	
-				<header>
-					<h1>Mas nuevo</h1>
-				</header>											
-				<article>
-                    <a href="paginas/novedades.html"><img id="rtx" src="assets/rtx.jpg"></a>
-				</article>	
-				<div class="comentarios"><span id="com_grafica">¿Aun no conoces la nueva tarjeta grafica RTX 3080?</span></div>			
-			</section>
-			
-
-			<section id="blog">		
-				<header>
-					<h1>Noticias</h1>
-				</header>										
-				<article>
-                    <a href="paginas/noticias.html"><img id="grafica" src="assets/noticias.png"></a>
-				</article>	
-				<div class="comentarios"><span id="com_noticia">No te pierdas esta comparación, el resultado es increible!!</span></div>		
-			</section>
-			
-
-			<section>
-				<header>
-					<h1>Seguro que te interesa</h1>
-				</header>
-				<article>
-
-				</article>
-			</section>
+			<form  action="" method="POST">
+				<div class="formularios">
+					<h1>Registrarse</h1>
+					<h2>Completa el formulario para crear tu cuenta</h2>
+					<hr>
+				<br/>
+					<label for="nombre">Nombre</label>
+					<input type="text"   placeholder="Nombre" name="nombre" /><br/>
+				<br/>
+					<label for="email">Email</label>
+					<input type="text"   placeholder="Email" name="email" /><br/>
+				<br/>
+					<label for="contraseña">Contraseña</label>
+					<input type="password"   placeholder="Contraseña" name="contraseña" /><br/>
+				<br/>
+					<label for="email">Confirmar contraseña</label>
+					<input type="password"   placeholder="Repetir contraseña" name="rep-contraseña" /><br/>
+				<br/>
+					<label>
+						<input type="checkbox" id="boton" name="recordar" />Recordar datos de inicio
+					</label>
+				
+				</div>
+				<br/>
+				<div class="botones">
+					<input type="submit" name="enviar" value="Enviar" />
+					
+					<input type="reset" name="limpiar" value="Cancelar"/>					
+				</div>
+			</form>
 		</main>
 
 		<footer>
