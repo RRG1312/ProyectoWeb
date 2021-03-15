@@ -99,8 +99,7 @@ li a:hover{
     color:#000000;
     background-color:#154360;           
 }
-               
-
+    
 
 #servicios{
     position:absolute;
@@ -270,7 +269,7 @@ span{
 }
 
 
-#pie{
+.pie{
 
     position:absolute;
     bottom: 60%;
@@ -278,7 +277,7 @@ span{
     right: 20%;
 }
 
-#copy{
+.copy{
     text-decoration:none;
 	color:#000000;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
