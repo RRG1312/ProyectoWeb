@@ -2,22 +2,93 @@
 <html lang="es">
 
     <head>
+        <title>Novedades</title>
         <meta charset="UTF-8" />
+        <link rel="icon" type="image/png" href="..\sassets/home.png">
 		<link rel="icon" type="image/png" href="assets/.png">
         <link rel="stylesheet" type="text/css" href="..\estilos.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous"/>
     </head>
 
     <body>
-        <header>
+        <header id="primero">
+			<div id="r_sociales">				
+                <div id="facebook"><a href="https://www.facebook.com/"><i class="fab fa-facebook fa-2x"></i></a></div>
+                <div id="instagram"><a href="https://www.instagram.com/"><i class="fab fa-instagram-square fa-2x"></i></a></div>
+                <div id="twitter"><a href="https://twitter.com/?lang=es"><i class="fab fa-twitter fa-2x"></i></a></div>
+                <div id="youtube"><a href="https://www.youtube.com/"><i class="fab fa-youtube fa-2x"></i></a></div>				
+            </div>
 
-        </header>
+			<div id="home">
+				<a href="..\index.html"><img id="home" src="..\assets/home.png"></a>
+			</div>
 
-        <main>
+			<nav id="servicios">
+				<ul>
+					<li><a href="personal/signup.html"><i class="fas fa-user-plus"></i>Sign Up</a></li>
 
-        </main>
+					<li><a href="personal/login.html">Log in</a></li>
 
-        <footer>
-            
-        </footer>
-    </body>
+					<li><a href="personal/perfil.html">Mi perfil</a></li>
+					
+				</ul>
+			</nav>
+			
+			<div id="contenedor-productos">
+					
+				<ul class="menu">
+					<li><a href="ordenadores.html"><i class="fas fa-laptop"></i> Ordenadores</a>
+
+					</li>
+
+					<li><a href="consolas.html"><i class="fab fa-xbox"></i> Consolas</a>
+
+					</li>
+
+				</ul>
+			</div>
+
+		</header>
+
+		<main class="cont_articulos">		
+            <section>
+                <header>
+                    <h1>Novedades</h1>
+                    <h2>RTX 3080</h2>
+                </header>
+			    <article>
+                    <div class="articulos">                  
+                        <p>
+                            Los resultados que hemos obtenido no dejan lugar a dudas, la GeForce RTX 3080 
+                            marca un enorme salto generacional, y realmente es capaz de mover casi cualquier
+                            juego actual en 4K y calidad máxima con unas tasas de FPS muy elevadas. Esto 
+                            quiere decir que los monitores 4K con tasas de refresco de más de 60 Hz por fin 
+                            empiezan a tener mucho más sentido.
+                    <br/>
+                    <br/>
+                            En términos comparativos, la diferencia de rendimiento frente a la RTX 2080 es 
+                            muy marcada, y en algunos casos llega a ser enorme. Hay una tendencia curiosa 
+                            que he ido viendo durante las pruebas, y es que en general la GeForce RTX 3080 
+                            ofrece en 4K, salvo contadas excepciones, un rendimiento casi idéntico al que 
+                            consigue la RTX 2080 en 1440p. Impresionante, no olvidéis que en 4K la GeForce 
+                            RTX 3080 tiene que manejar 8.294.400 píxeles, y que en 1440p la RTX 2080 tiene 
+                            que mover «solo» 3.686.400 píxeles.
+                        </p>
+                    </div> 
+                    
+                    <img id="rtx3080" src="..\assets/rtx3080.jpg">
+                </article>
+
+            </section>	
+
+		</main>
+
+		<footer class="terminos">
+			<p class="pie">
+				| Politica de privacidad | Cookies | Terminos de sevicio |
+			</p>
+			<span class="copy">TechWeb Copyright 2021 all rights reserved</span>
+		</footer>
+							
+	</body>
 </html>
